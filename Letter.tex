@@ -1,0 +1,24 @@
+\documentclass[version=last,11pt]{scrlttr2}
+\usepackage{scrlayer-scrpage}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setkomavar{fromname}{John Doe}
+\setkomavar{fromaddress}{Cupboard under the stairs \\ 4 Privet Drive \\ Little Whinings, Surrey}
+\setkomavar{signature}{John Doe}
+\setkomavar{subject}{Lorem ipsum dolor sit amet}
+\setkomavar{date}{12. july 2021}
+\setkomavar{place}{Little Whinings}
+\KOMAoptions{foldmarks=true,foldmarks=TBp,subject=untitled,backaddress=false}
+\setplength{firstheadhpos}{24mm}
+\begin{document}
+\begin{letter}{Some Guy \\ 18 Jane Street \\ London}
+
+\LoadLetterOption{SN}
+\opening{}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin erat non est fermentum mollis. Fusce rutrum sapien nisi, ut aliquam mi congue quis. In at enim vulputate, elementum tellus at, porta ipsum. Mauris ultrices mollis nisi sit amet vehicula. Donec ut mauris dapibus, tristique ligula non, sodales ligula. Duis auctor diam eu viverra sollicitudin. Maecenas non volutpat neque. Suspendisse potenti. Pellentesque id elementum erat, vel tincidunt odio. Phasellus auctor mi quis lorem bibendum, vitae pharetra neque porttitor.
+  \closing{Sincerely}
+
+\end{letter}
+
+\end{document}
